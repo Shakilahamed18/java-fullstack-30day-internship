@@ -1,0 +1,10 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; background: #f5f5f5; padding: 2rem; }
+.app h1 { text-align: center; margin-bottom: 2rem; color: #333; }
+.profile-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; max-width: 1000px; margin: 0 auto; }
+.profile-card { background: white; border-radius: 12px; padding: 1.5rem; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.profile-card img { width: 100px; height: 100px; border-radius: 50%; margin-bottom: 1rem; }
+.profile-card h2 { color: #222; margin-bottom: 0.25rem; }
+.profile-card p { color: #666; margin-bottom: 1rem; }
+.skills { display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; }
+.badge { background: #e0e7ff; color: #3730a3; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.8rem; }
