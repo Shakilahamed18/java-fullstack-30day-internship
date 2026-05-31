@@ -40,3 +40,17 @@ Write a custom query that fetches a "feed" — the 10 most recent posts with the
 - [JPA Entity Relationships – Baeldung](https://www.baeldung.com/jpa-entity-relationships)
 - [Spring Data JPA Custom Queries](https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html)
 - [Hibernate Fetching Strategies](https://docs.jboss.org/hibernate/orm/current/userguide/html_single/Hibernate_User_Guide.html#fetching)
+
+## How to Run
+
+```bash
+cd Day-23/starter
+mvn spring-boot:run
+```
+
+- API runs at http://localhost:8080
+- H2 Console: http://localhost:8080/h2-console (JDBC URL: `jdbc:h2:mem:blogdb`)
+- Sample data is auto-seeded on startup
+- Test endpoints:
+  - `curl http://localhost:8080/api/posts` → All posts with authors (JOIN FETCH)
+  - `curl http://localhost:8080/api/posts/by-author/alice` → Posts by author

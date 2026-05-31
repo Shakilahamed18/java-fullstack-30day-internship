@@ -39,3 +39,13 @@ Add search functionality: when the user searches on the Products page, update th
 - [React Router Documentation](https://reactrouter.com/en/main)
 - [React Router Tutorial](https://reactrouter.com/en/main/start/tutorial)
 - [useParams – React Router](https://reactrouter.com/en/main/hooks/use-params)
+
+## How to Run
+
+```bash
+cd Day-12/starter
+npm install
+npm run dev
+```
+
+Open http://localhost:5173 in your browser.

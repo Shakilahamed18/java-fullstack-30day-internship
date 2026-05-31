@@ -36,3 +36,17 @@ Create a Postman collection that tests all your API endpoints, including cases t
 - [Spring Boot Exception Handling](https://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc)
 - [Springdoc OpenAPI](https://springdoc.org/)
 - [SLF4J Manual](https://www.slf4j.org/manual.html)
+
+## How to Run
+
+```bash
+cd Day-21/starter
+mvn spring-boot:run
+```
+
+- API runs at http://localhost:8080
+- Swagger UI: http://localhost:8080/swagger-ui.html (interactive API docs)
+- H2 Console: http://localhost:8080/h2-console
+- Test error handling:
+  - `curl http://localhost:8080/api/products/999` → 404 with structured error response
+  - `curl http://localhost:8080/api/products` → 200 with product list

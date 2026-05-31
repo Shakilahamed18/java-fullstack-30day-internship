@@ -37,3 +37,13 @@ Extract the cart logic into a custom hook `useCart()` that encapsulates all cart
 - [Sharing State Between Components – React Docs](https://react.dev/learn/sharing-state-between-components)
 - [useContext – React Docs](https://react.dev/reference/react/useContext)
 - [Passing Data Deeply with Context](https://react.dev/learn/passing-data-deeply-with-context)
+
+## How to Run
+
+```bash
+cd Day-11/starter
+npm install
+npm run dev
+```
+
+Open http://localhost:5173 in your browser.

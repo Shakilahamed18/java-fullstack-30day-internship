@@ -40,3 +40,17 @@ Switch from H2 to MySQL: install MySQL locally, create a database, update `appli
 - [Spring Data JPA Documentation](https://docs.spring.io/spring-data/jpa/reference/)
 - [JPA Entity – Baeldung](https://www.baeldung.com/jpa-entities)
 - [Spring Data Query Methods](https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html)
+
+## How to Run
+
+```bash
+cd Day-19/starter
+mvn spring-boot:run
+```
+
+- API runs at http://localhost:8080
+- H2 Console: http://localhost:8080/h2-console (JDBC URL: `jdbc:h2:mem:testdb`, user: `sa`, no password)
+- Test endpoints:
+  - `curl http://localhost:8080/api/products` → List all (seeded from data.sql)
+  - `curl http://localhost:8080/api/products?category=Electronics` → Filter by category
+  - `curl http://localhost:8080/api/products?search=laptop` → Search by name

@@ -41,3 +41,13 @@ Add an "edit" feature to the contact manager: clicking an edit button populates 
 - [Rendering Lists – React Docs](https://react.dev/learn/rendering-lists)
 - [Responding to Events – React Docs](https://react.dev/learn/responding-to-events)
 - [Controlled Components – React Docs](https://react.dev/learn/sharing-state-between-components)
+
+## How to Run
+
+```bash
+cd Day-10/starter
+npm install
+npm run dev
+```
+
+Open http://localhost:5173 in your browser.

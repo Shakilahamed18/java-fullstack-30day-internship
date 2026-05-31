@@ -38,3 +38,13 @@ Build a simple digital clock that displays the current time and updates every se
 - [useState – React Docs](https://react.dev/reference/react/useState)
 - [useEffect – React Docs](https://react.dev/reference/react/useEffect)
 - [Synchronizing with Effects](https://react.dev/learn/synchronizing-with-effects)
+
+## How to Run
+
+```bash
+cd Day-09/starter
+npm install
+npm run dev
+```
+
+Open http://localhost:5173 in your browser.

@@ -38,3 +38,15 @@ Write unit tests for `ProductServiceImpl` by mocking the repository. Test at lea
 - [Spring Dependency Injection](https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-collaborators.html)
 - [Layered Architecture – Baeldung](https://www.baeldung.com/spring-boot-clean-architecture)
 - [Constructor Injection – Why?](https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-collaborators.html#beans-constructor-injection)
+
+## How to Run
+
+```bash
+cd Day-18/starter
+mvn spring-boot:run
+```
+
+- API runs at http://localhost:8080
+- Test endpoints:
+  - `curl http://localhost:8080/api/products` → List all products
+  - `curl -X POST http://localhost:8080/api/products -H "Content-Type: application/json" -d '{"name":"Tablet","description":"10 inch tablet","price":399.99,"category":"Electronics"}'` → Create product

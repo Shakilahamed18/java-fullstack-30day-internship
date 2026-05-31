@@ -42,3 +42,16 @@ Create a `UserRegistrationDTO` with validations: username (3-20 chars, alphanume
 - [Bean Validation – Baeldung](https://www.baeldung.com/spring-boot-bean-validation)
 - [Jakarta Bean Validation Spec](https://jakarta.ee/specifications/bean-validation/)
 - [DTO Pattern – Baeldung](https://www.baeldung.com/java-dto-pattern)
+
+## How to Run
+
+```bash
+cd Day-20/starter
+mvn spring-boot:run
+```
+
+- API runs at http://localhost:8080
+- H2 Console: http://localhost:8080/h2-console
+- Test validation:
+  - `curl -X POST http://localhost:8080/api/products -H "Content-Type: application/json" -d '{"name":"A","price":-5,"category":""}'` → Returns validation errors
+  - `curl -X POST http://localhost:8080/api/products -H "Content-Type: application/json" -d '{"name":"Keyboard","price":79.99,"category":"Electronics"}'` → Success with ApiResponse wrapper

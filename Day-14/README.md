@@ -36,3 +36,13 @@ Add a dark mode toggle using Tailwind's `dark:` variant and persist the preferen
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 - [Vite + Tailwind Setup](https://tailwindcss.com/docs/guides/vite)
 - [OpenWeatherMap API](https://openweathermap.org/api)
+
+## How to Run
+
+```bash
+cd Day-14/starter
+npm install
+npm run dev
+```
+
+Open http://localhost:5173 in your browser.

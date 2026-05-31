@@ -40,3 +40,14 @@ Write SQL queries to:
 - [MySQL Documentation](https://dev.mysql.com/doc/refman/8.0/en/)
 - [SQL Tutorial – W3Schools](https://www.w3schools.com/sql/)
 - [Spring Boot MySQL Configuration](https://spring.io/guides/gs/accessing-data-mysql)
+
+## How to Run
+
+```bash
+# Start MySQL and run the scripts:
+mysql -u root -p < Day-22/starter/schema.sql
+mysql -u root -p < Day-22/starter/sample-data.sql
+mysql -u root -p < Day-22/starter/queries.sql
+```
+
+Or paste the SQL into any MySQL client (MySQL Workbench, DBeaver, phpMyAdmin, or the `mysql` CLI).

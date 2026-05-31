@@ -38,3 +38,13 @@ Add retry logic to your `useFetch` hook — if a request fails, automatically re
 - [Fetch API – MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 - [Axios Documentation](https://axios-http.com/docs/intro)
 - [React Data Fetching Patterns](https://react.dev/reference/react/useEffect#fetching-data-with-effects)
+
+## How to Run
+
+```bash
+cd Day-13/starter
+npm install
+npm run dev
+```
+
+Open http://localhost:5173 in your browser.

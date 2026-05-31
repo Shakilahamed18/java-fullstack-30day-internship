@@ -39,3 +39,16 @@ Add a `@Service` class called `GreetingService` with a method that accepts a nam
 - [Spring Boot Documentation](https://docs.spring.io/spring-boot/reference/)
 - [Spring Initializr](https://start.spring.io/)
 - [Spring Boot Annotations – Baeldung](https://www.baeldung.com/spring-boot-annotations)
+
+## How to Run
+
+```bash
+cd Day-16/starter
+mvn spring-boot:run
+```
+
+- App runs at http://localhost:8080
+- Test endpoints:
+  - `curl http://localhost:8080/` → Hello message
+  - `curl http://localhost:8080/greet?name=John` → Personalized greeting
+  - `curl http://localhost:8080/status` → App status JSON

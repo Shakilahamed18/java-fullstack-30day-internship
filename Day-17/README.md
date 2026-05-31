@@ -39,3 +39,17 @@ Add pagination support to the `GET /api/products` endpoint. Accept `page` and `s
 - [Spring Web MVC – Controllers](https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller.html)
 - [Building REST Services with Spring](https://spring.io/guides/tutorials/rest)
 - [ResponseEntity – Baeldung](https://www.baeldung.com/spring-response-entity)
+
+## How to Run
+
+```bash
+cd Day-17/starter
+mvn spring-boot:run
+```
+
+- API runs at http://localhost:8080
+- Test endpoints:
+  - `curl http://localhost:8080/api/products` → List all products
+  - `curl http://localhost:8080/api/products/1` → Get product by ID
+  - `curl -X POST http://localhost:8080/api/products -H "Content-Type: application/json" -d '{"name":"Mouse","price":29.99,"category":"Electronics"}'` → Create product
+  - `curl -X DELETE http://localhost:8080/api/products/1` → Delete product

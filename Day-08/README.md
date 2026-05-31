@@ -38,3 +38,13 @@ Extract the profile card into its own file and create a `ProfileList` component 
 - [React Official Documentation](https://react.dev/)
 - [Vite Getting Started](https://vite.dev/guide/)
 - [JSX in Depth – React Docs](https://react.dev/learn/writing-markup-with-jsx)
+
+## How to Run
+
+```bash
+cd Day-08/starter
+npm install
+npm run dev
+```
+
+Open http://localhost:5173 in your browser.
